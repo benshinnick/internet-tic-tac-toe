@@ -5,7 +5,7 @@ Used for the server and clients to communicate with one another
 | Client Message | Server Response | Meaning |
 | -------------- | --------------- | ------- |
 | Hello | New player command for player 1 <br /> or <br /> New player command for player 2 | First player joining the game <br /> <br /> Second player joining the game |
-| move<int><int><int> | The new board state <br /> or <br /> Player <int> won!!! <br /> or <br /> The game is a draw | Legal move - not the end of the game <br /> <br /> Player <int> is the Winner <br /> <br /> Draw |
+| move\<int>\<int>\<int> | The new board state <br /> or <br /> Player \<int> won!!! <br /> or <br /> The game is a draw | Legal move - not the end of the game <br /> <br /> Player \<int> is the Winner <br /> <br /> Draw |
 ## Running The Program
 Either run the included batch file or run the server before quickly starting the two clients together.
 ## Sample Run
